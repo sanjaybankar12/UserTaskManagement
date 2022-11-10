@@ -6,7 +6,7 @@
       2) Spring Security
       3) MySQL Database
 
-You can use any database with this application. You can update only application.properties file
+You can use any database with this application. You can update only <b>application.properties</b> file
 
 Update following properties as per your database
 >spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -17,6 +17,6 @@ Update following properties as per your database
 
 >spring.datasource.password=root
 
-At the first time you need to create database of name mydb and update following property value create 
-so that it will create require table then keep as update always.
+At the first time you need to create database of name mydb and update following property value to <b>create</b>
+so that it will create require table then keep as <b>update</b> always.
 >spring.jpa.hibernate.ddl-auto=update
