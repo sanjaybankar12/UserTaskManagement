@@ -21,6 +21,6 @@ At the first time you need to create database of name mydb and update following 
 so that it will create require table then keep as <b>update</b> always.
 >spring.jpa.hibernate.ddl-auto=update
 
-Use following URL in brower,
+Use following URL in browser,
 >http://localhost:8082/home
 
