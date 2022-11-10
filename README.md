@@ -20,3 +20,7 @@ Update following properties as per your database
 At the first time you need to create database of name mydb and update following property value to <b>create</b>
 so that it will create require table then keep as <b>update</b> always.
 >spring.jpa.hibernate.ddl-auto=update
+
+Use following URL in brower,
+>http://localhost:8082/home
+
