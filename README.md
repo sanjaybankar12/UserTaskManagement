@@ -4,7 +4,10 @@
 
       1) Spring MVC
       2) Spring Security
-      3) MySQL Database
+      3) JSTL
+      4) Bootstrap
+      5) JQuery
+      6) MySQL Database
 
 You can use any database with this application. You can update only <b>application.properties</b> file
 
