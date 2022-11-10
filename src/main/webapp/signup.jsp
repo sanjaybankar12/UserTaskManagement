@@ -21,7 +21,7 @@
 	<div class="container">
 		<h2 style="text-align:center;">User Registration</h2>
 		<br/>
-		<form method="post" action="user/register" id="reg-form" validate>
+		<form method="post" action="user/register" id="reg-form">
 			<div class="form-group">
 				<label for="role" class="control-lable">Role : </label>
 				<select id="role" class="form-control" name="role">
@@ -31,11 +31,11 @@
 			</div>
 			<div class="form-group">
 				<label for="username" class="control-lable">Username : </label>
-				<input placeholder="Enter Username" type="text" id="username" class="form-control" name="username" />
+				<input placeholder="Enter Username" required type="text" id="username" class="form-control" name="username" />
 			</div>
 			<div class="form-group">
 				<label for="password" class="control-lable">Password : </label>
-				<input placeholder="Enter Password" type="password" id="password" class="form-control" name="password" />
+				<input placeholder="Enter Password" required type="password" id="password" class="form-control" name="password" />
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary">Sign Up</button>

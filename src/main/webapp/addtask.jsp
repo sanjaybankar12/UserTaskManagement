@@ -8,7 +8,6 @@
 <meta charset="ISO-8859-1">
 <title>Home Page</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <style type="text/css">
 	.header {
 		background-color: yellow;
@@ -44,11 +43,11 @@
 		<form method="post" action="/task/save" id="task-form">			
 			<div class="form-group">
 				<label for="title" class="control-lable">Title : </label>
-				<input placeholder="Enter Title" type="text" id="title" class="form-control" name="title" />
+				<input placeholder="Enter Title" required type="text" id="title" class="form-control" name="title" />
 			</div>
 			<div class="form-group">
 				<label for="description" class="control-lable">Description : </label>
-				<textarea placeholder="Enter Description" id="description" class="form-control" name="description" ></textarea>
+				<textarea placeholder="Enter Description" required id="description" class="form-control" name="description" ></textarea>
 			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary">Add Task</button>

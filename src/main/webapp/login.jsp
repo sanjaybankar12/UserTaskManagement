@@ -30,11 +30,11 @@
 		<form action="/login" method="post" id="login-form">		
 			<div class="form-group">
 				<label for="username" class="control-lable">Username : </label>
-				<input placeholder="Enter Username" type="text" id="username" class="form-control" name="username" />
+				<input placeholder="Enter Username" required type="text" id="username" class="form-control" name="username" />
 			</div>
 			<div class="form-group">
 				<label for="password" class="control-lable">Password : </label>
-				<input placeholder="Enter Password" type="password" id="password" class="form-control" name="password" />
+				<input placeholder="Enter Password" required type="password" id="password" class="form-control" name="password" />
 			</div>
 			<span class="error_msg">${SPRING_SECURITY_LAST_EXCEPTION.message }</span>
 			<div class="form-group">
